@@ -135,6 +135,11 @@
   box-shadow: 0 0 0 3px rgba(78,154,90,0.15);
 }
 .form-group textarea { resize: vertical; min-height: 120px; }
+.field-guidance {
+  color: var(--slate);
+  font-size: var(--text-xs);
+  line-height: 1.45;
+}
 
 .form-check { flex-direction: row; align-items: center; }
 .checkbox-label {

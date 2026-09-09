@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow, noarchive">
   <meta name="description" content="Contact Pinnacle Chiropractic in Clinton Township, MI. Call, text, or book online — most new patients seen within 48 hours. Serving Macomb County.">
   <title>Contact | Pinnacle Chiropractic | Clinton Township, MI</title>
   <link rel="stylesheet" href="/css/style.css">
@@ -49,10 +50,10 @@
           <div class="contact-block">
             <h3>Location</h3>
             <address class="contact-address">
-              19199 15 Mile Rd<br>
-              Clinton Township, MI 48035
+              Clinton Township, MI<br>
+              Exact address published at launch
             </address>
-            <a href="https://maps.google.com/?q=19199+15+Mile+Rd+Clinton+Township+MI+48035" target="_blank" rel="noopener" class="map-link">Get directions →</a>
+            <a href="https://maps.google.com/?q=Clinton+Township+MI" target="_blank" rel="noopener" class="map-link">Preview directions →</a>
           </div>
 
           <div class="contact-block">
@@ -75,9 +76,7 @@
           <h2>Send us a message</h2>
           <p>Have a question before booking? Fill out the form and we'll get back to you within one business day.</p>
 
-          <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-            <input type="hidden" name="form-name" value="contact">
-            <p class="hidden"><label>Don't fill this out: <input name="bot-field"></label></p>
+          <form class="contact-form" name="contact">
 
             <div class="form-row">
               <div class="form-group">
@@ -116,7 +115,8 @@
 
             <div class="form-group">
               <label for="message">Message <span class="required">*</span></label>
-              <textarea id="message" name="message" rows="5" required placeholder="Tell us a bit about what you're dealing with..."></textarea>
+              <textarea id="message" name="message" rows="5" required aria-describedby="message-guidance" placeholder="Ask a general question or tell us how you would like us to contact you."></textarea>
+              <small id="message-guidance" class="field-guidance">Please don’t include private medical information in this form.</small>
             </div>
 
             <div class="form-group form-check">
@@ -126,7 +126,7 @@
               </label>
             </div>
 
-            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            <button type="button" class="btn btn-primary btn-full" data-form-submit>Send Message</button>
 
             <p class="form-disclaimer">This form is for general inquiries only — not for medical advice or emergencies. For urgent care, please call us directly.</p>
           </form>
@@ -143,8 +143,8 @@
     <div class="map-overlay">
       <div class="map-card">
         <strong>Pinnacle Chiropractic</strong>
-        <span>19199 15 Mile Rd, Clinton Township, MI 48035</span>
-        <a href="https://maps.google.com/?q=19199+15+Mile+Rd+Clinton+Township+MI+48035" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:var(--space-4)">Open in Google Maps</a>
+        <span>Exact address published at launch</span>
+        <a href="https://maps.google.com/?q=Clinton+Township+MI" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:var(--space-4)">Preview Directions</a>
       </div>
     </div>
   </div>
