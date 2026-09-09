@@ -4,6 +4,10 @@ This repository is intentionally configured as a public design preview. Search
 engines are blocked, forms do not transmit visitor information, and booking,
 phone, and directions links open an on-site preview notice.
 
+Cloudflare Workers deploys the buildless site directly from the repository root
+using `wrangler.jsonc`. `.assetsignore` prevents project-only files from being
+published as website assets.
+
 ## Launch checklist
 
 1. In `js/layout.js`, update `SITE_CONFIG` with the production booking, phone,
@@ -24,4 +28,3 @@ phone, and directions links open an on-site preview notice.
 8. Replace sample blog links with real article URLs or remove unpublished cards.
 9. Test keyboard navigation, mobile layouts, form delivery, scheduling, calling,
    directions, analytics, and all internal links on the production hostname.
-
