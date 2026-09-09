@@ -1,11 +1,7 @@
 {
-  "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "pinnaclechiro",
-  "compatibility_date": "2026-09-09",
-  "assets": {
-    "directory": ".",
-    "html_handling": "auto-trailing-slash",
-    "not_found_handling": "none"
+    "name": "worker-name",
+    "compatibility_date": "2026-09-08",
+ "main": "src/index.ts"
+
   }
-}
 
